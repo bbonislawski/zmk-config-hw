@@ -22,7 +22,7 @@
                 <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  /* Row 2 = P0.10 */
                 <&gpio0 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;  /* Row 3 = P0.09 */
 
-    col-gpios = <&gpio1 6  GPIO_ACTIVE_HIGH>,  /* Col 0 = P1.06 */
+    col-gpios = <&gpio0 6  GPIO_ACTIVE_HIGH>,  /* Col 0 = P1.06 */
                 <&gpio1 4  GPIO_ACTIVE_HIGH>,  /* Col 1 = P1.04 */
                 <&gpio0 11 GPIO_ACTIVE_HIGH>,  /* Col 2 = P0.11 */
                 <&gpio1 0  GPIO_ACTIVE_HIGH>,  /* Col 3 = P1.00 */
